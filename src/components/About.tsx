@@ -1,7 +1,8 @@
-
 import { Code, Database, Brain, Zap, Trophy, Award } from 'lucide-react';
 
 const About = () => {
+  const baseUrl = import.meta.env.BASE_URL;
+
   const highlights = [
     {
       icon: <Brain className="w-6 h-6" />,
@@ -43,7 +44,7 @@ const About = () => {
               <div className="relative group">
                 <div className="absolute -inset-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
                 <img 
-                  src="/lovable-uploads/7733247b-206c-481c-ae5e-33b600d55e7c.png"
+                  src={`${baseUrl}lovable-uploads/7733247b-206c-481c-ae5e-33b600d55e7c.png`}
                   alt="Mabasha R. - AI Developer"
                   className="relative w-64 h-80 object-cover rounded-lg shadow-2xl transform group-hover:scale-105 transition-all duration-300"
                 />
@@ -55,7 +56,7 @@ const About = () => {
               <div className="relative group">
                 <div className="absolute -inset-4 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
                 <img 
-                  src="/lovable-uploads/ca839fd2-b433-4184-9448-8ed6118047cb.png"
+                  src={`${baseUrl}lovable-uploads/ca839fd2-b433-4184-9448-8ed6118047cb.png`}
                   alt="Smart India Hackathon 2023 Winner - Mabasha R."
                   className="relative w-64 h-80 object-cover rounded-lg shadow-2xl transform group-hover:scale-105 transition-all duration-300"
                 />
