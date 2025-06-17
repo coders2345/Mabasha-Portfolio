@@ -21,8 +21,8 @@ const Experience = () => {
     {
       title: "SAP ERP Intern",
       company: "KAAR Technologies",
-      location: "Bangalore, India",
-      period: "2024 - Present",
+      location: "Chennai, India",
+      period: "2025 - Present",
       type: "Internship",
       description: "Working with enterprise SAP solutions, focusing on FICO, UI5, ABAP development, and OData services integration.",
       achievements: [
