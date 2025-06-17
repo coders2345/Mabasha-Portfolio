@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Mail, Phone, MapPin, Github, Linkedin, Send } from 'lucide-react';
 
@@ -184,13 +183,6 @@ const Contact = () => {
               </button>
             </form>
           </div>
-        </div>
-
-        {/* Bottom Section */}
-        <div className="mt-16 pt-8 border-t border-gray-700 text-center">
-          <p className="text-gray-400">
-            © 2024 Mabasha R. Built with passion using React & TypeScript
-          </p>
         </div>
       </div>
     </section>
