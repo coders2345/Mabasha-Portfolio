@@ -1,4 +1,3 @@
-
 import { ArrowDown, Github, Linkedin, Mail, Phone, Download } from 'lucide-react';
 
 const Hero = () => {
@@ -25,8 +24,7 @@ const Hero = () => {
           <div className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto">
             <p className="leading-relaxed">
               <span className="text-purple-400 font-semibold">AI Developer</span> • 
-              <span className="text-pink-400 font-semibold"> SAP ERP Expert</span> • 
-              <span className="text-indigo-400 font-semibold"> Co-founder @ Systifsoft</span>
+              <span className="text-pink-400 font-semibold"> SAP ERP Expert</span>
             </p>
             <p className="mt-4 text-base sm:text-lg text-gray-400">
               Transforming ideas into intelligent solutions with cutting-edge AI/ML and enterprise technologies

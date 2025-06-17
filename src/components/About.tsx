@@ -77,7 +77,7 @@ const About = () => {
                 Hello! I'm <span className="text-purple-400">Mabasha R.</span> (aka Chittu)
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                A passionate final-year B.Tech student specializing in AI & Data Science, currently working as an SAP ERP Intern at KAAR Technologies. I'm also the co-founder of Systifsoft, where we're building innovative software solutions for the future.
+                A passionate final-year B.Tech student specializing in AI & Data Science, currently working as an SAP ERP Intern at KAAR Technologies.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
                 🏆 <span className="text-yellow-400 font-semibold">Smart India Hackathon 2023 Winner</span> - Secured 1st place and ₹1,00,000 prize money at The National Institute of Engineering, Mysuru for developing an innovative solution.

@@ -1,4 +1,3 @@
-
 import { Building2, Calendar, MapPin, Trophy, Users, Briefcase } from 'lucide-react';
 
 const Experience = () => {
@@ -34,22 +33,6 @@ const Experience = () => {
       ],
       icon: <Building2 className="w-6 h-6" />,
       color: "from-blue-500 to-indigo-500"
-    },
-    {
-      title: "Co-founder & Tech Lead",
-      company: "Systifsoft",
-      location: "Remote",
-      period: "2023 - Present",
-      type: "Startup",
-      description: "Co-founded a software development company focused on building next-generation SaaS solutions and AI-powered applications.",
-      achievements: [
-        "Built and launched multiple SaaS products",
-        "Led technical architecture and development decisions",
-        "Managed a team of developers and designers",
-        "Implemented AI/ML solutions for various client projects"
-      ],
-      icon: <Users className="w-6 h-6" />,
-      color: "from-purple-500 to-pink-500"
     }
   ];
 
